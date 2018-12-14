@@ -18,22 +18,23 @@ After successfull compilation the `run` directory should contain one executable 
 
 **Usage**
 
+mpirun -n 20 som_linux -c <file> -o <file> -i <input>
 
 List of basic parameters:
 
  -c <name> - name of configuration file\
  -o <name> - name of output file\
  -i <name> - name of input file\
- -debug    - enable debug reports\
- -info     - continuously writes status of calculation\
- -t  <number>      - number of thread\
+ -debug    - enable debug reports (Default false)\
+ -info     - continuously writes status of calculation (Default false)\
+ -t <number>      - number of thread (Default 1)\
  -somHybrid <range 0 - 100>\
  -hybridInc        -\
  -hybridDec        -\
  -hybridStep <number>\
- -cosin           - Use cosin metrik instead of euklid\
- -minkow <number>\
- -version <number> - Version type of input file\
- -update <number>  - Version of update based    \
+ -cosin           - Use cosin metrik instead of euklid (Default false)\
+ -version <number> - Version type of input file (Default 2)\
+ -update <number>  - Version of update (Default 0)\
+ -onOutput - Turn off any output file (Default false)
 
 
