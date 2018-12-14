@@ -19,5 +19,20 @@ After successfull compilation the `run` directory should contain one executable 
 ## Usage
 
 
-Parameters:
--c <name> - configuration file
+List of basic parameters:
+ -c <name> - name of configuration file
+ -o <name> - name of output file
+ -i <name> - name of input file
+ -debug    - enable debug reports
+ -info     - continuously writes status of calculation
+ -t  <number>      - number of thread
+ -somHybrid <range 0 - 100>
+ -hybridInc        -
+ -hybridDec        -
+ -hybridStep <number>
+ -cosin           - Use cosin metrik instead of euklid
+ -minkow <number>
+ -version <number> - Version type of input file
+ -update <number>  - Version of update based    
+
+
