@@ -38,7 +38,7 @@ mpirun -n 20 som_linux -c <file> -o <file> -i <input>
 -update <number>  - Version of update (Default 0)
 -onOutput - Turn off any output file (Default false)
 ```
->Hybrid learning is decribe [here](https://www.scopus.com/record/display.uri?eid=2-s2.0-84959217069&origin=resultslist&sort=plf-f&src=s&sid=a17258611de1fb30fefc2aeb51f1fa5d&sot=autdocs&sdt=autdocs&sl=18&s=AU-ID%2853985639600%29&relpos=4&citeCnt=2&searchTerm=)
+>Hybrid learning is described [here](https://www.scopus.com/record/display.uri?eid=2-s2.0-84959217069&origin=resultslist&sort=plf-f&src=s&sid=a17258611de1fb30fefc2aeb51f1fa5d&sot=autdocs&sdt=autdocs&sl=18&s=AU-ID%2853985639600%29&relpos=4&citeCnt=2&searchTerm=)
 
 **Input file example**
 
@@ -61,3 +61,7 @@ Each record is on a separate line.
 Each record describes one neuron.
 
 `0:<value> 1:<value> ... `
+
+# Licence
+
+See the LICENSE file at the root directory.
